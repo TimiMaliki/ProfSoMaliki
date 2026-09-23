@@ -9,7 +9,7 @@ function Home({ }: Props) {
     return (
         <div className="w-full overflow-hidden">
             <StraightLines header={"Professor of Applied Mathematics"}
-                title={"Unlocking Real-World Solutions Through Applied Mathematics."} />
+                title={"Professor of Applied Mathematics at Michael Okpara Federal University of Agriculture, Umudike (MOUAU), Nigeria."} />
             <GoogleScholar />
         </div>
     )
