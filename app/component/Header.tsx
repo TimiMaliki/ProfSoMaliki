@@ -4,7 +4,7 @@ type Props = {
     title: string
 }
 
-function Header({title}: Props) {
+function Headers({title}: Props) {
   return (
     <div className=''>
         {title}
@@ -12,4 +12,4 @@ function Header({title}: Props) {
   )
 }
 
-export default  Header 
+export default  Headers 

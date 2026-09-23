@@ -1,14 +1,21 @@
 import React from 'react'
 import Header from './Header'
+import StraightLineAndText from './StraightLineAndText'
 
-type Props = {}
+type Props = {
+  header: string,
+  title: string
+}
 
-function StraightLines({ }: Props) {
+function StraightLines({header,title}: Props) {
   return (
     <div className='p-3 md:p-10'>
       <div className="long-line w-full md:w-449 border bg-black"></div>
       <div className="header mt-2 text-4xl md:text-8xl font-black">
-         <Header title="Prof SO MALIKI" />
+        <Header title={header} />
+      </div>
+      <div className='text-4xl font-light'>
+        <StraightLineAndText title={title} />
       </div>
     </div>
   )
