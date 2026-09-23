@@ -1,12 +1,16 @@
 import StraightLines from "../component/StraightLines";
+import GoogleScholar from "./GoogleScholar";
+
 
 
 type Props = {}
 
-function Home({}: Props) {
+function Home({ }: Props) {
     return (
-        <div>
-            <StraightLines header={"Prof SO MALIKI"} title={"Decoding the Syntax of Meaning in a Digital World"} />
+        <div className="w-full overflow-hidden">
+            <StraightLines header={"Professor S. O. Maliki"}
+                title={"Decoding the Syntax of Meaning in a Digital World"} />
+                <GoogleScholar/>
         </div>
     )
 }
