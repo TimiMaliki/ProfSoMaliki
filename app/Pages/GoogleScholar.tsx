@@ -9,6 +9,10 @@ type Props = {}
 function GoogleScholar({ }: Props) {
     return (
         <section className="">
+            <div className="w-full overflow-x-hidden">
+                <TwoStraightLines />
+            </div>
+
             {/* image */}
             <div className="w-full flex items-center justify-center">
                 <div className="imgOne">

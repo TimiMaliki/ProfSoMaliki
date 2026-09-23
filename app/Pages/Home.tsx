@@ -9,8 +9,8 @@ function Home({ }: Props) {
     return (
         <div className="w-full overflow-hidden">
             <StraightLines header={"Professor of Applied Mathematics"}
-                title={"Professor S. O. Maliki is a Google Scholar."} />
-                <GoogleScholar/>
+                title={"Unlocking Real-World Solutions Through Applied Mathematics."} />
+            <GoogleScholar />
         </div>
     )
 }
