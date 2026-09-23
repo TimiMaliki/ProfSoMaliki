@@ -28,7 +28,7 @@ function GoogleScholar({ }: Props) {
                 </h2>
                 <div className="w-full flex items-center justify-center mt-4 mb-8">
                     <Link href="https://scholar.google.com/citations?user=d8rlgb8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">
-                        <button className="button-56" role="button">Google Scholar</button>
+                        <button className="button-56" role="button">Explore My Research</button>
                     </Link>
                 </div>
             </div>
