@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from "next/image";
 import TwoStraightLines from "../component/TwoStraightLines";
-import Cert from "../images/certificate.jpg"
 import ProfPic from "../images/dadspicOne.jpg"
 import Link from 'next/link';
+
 
 type Props = {}
 
@@ -32,7 +32,6 @@ function GoogleScholar({ }: Props) {
                     </Link>
                 </div>
             </div>
-
         </section>
     )
 }

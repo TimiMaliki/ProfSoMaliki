@@ -1,4 +1,5 @@
 import StraightLines from "../component/StraightLines";
+import Awards from "./Awards";
 import GoogleScholar from "./GoogleScholar";
 
 
@@ -11,6 +12,7 @@ function Home({ }: Props) {
             <StraightLines header={"Professor of Applied Mathematics"}
                 title={"Professor of Applied Mathematics at Michael Okpara Federal University of Agriculture, Umudike (MOUAU), Nigeria."} />
             <GoogleScholar />
+            <Awards/>
         </div>
     )
 }
