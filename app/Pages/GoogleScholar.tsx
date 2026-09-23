@@ -12,13 +12,14 @@ function GoogleScholar({ }: Props) {
             <div className="w-full overflow-x-hidden">
                 <TwoStraightLines />
             </div>
-            {/* images */}
-            <div className="grid grid-cols-2 place-items-center overflow-hidden">
-                {/* imageOne */}
+
+            {/* image */}
+            <div className="w-full flex items-center justify-center">
                 <div className="imgOne">
-                    <Image src={ProfPic} width={500} alt="Professor Picture" className="object-cover" />
+                    <Image src={ProfPic} width={500} alt="Professor Picture" className="object-cover w-225 rounded" />
                 </div>
             </div>
+
         </section>
     )
 }
