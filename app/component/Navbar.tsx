@@ -6,9 +6,9 @@ function Navbar({ }: Props) {
     return (
         <div className='flex  justify-between'>
             {/* Logo */}
-            <div className="logo -mt-24 text-start  w-1/2 p-12"><img src={logo.src} alt="Logo" className="h-16 w-16" /></div>
+            <div className="logo -mt-12 md:-mt-24 text-start  w-1/2 p-12"><img src={logo.src} alt="Logo" className="h-16 w-16" /></div>
             {/* menus */}
-            <div className="menu  -mt-12 text-start  w-1/2 ">
+            <div className="menu -mt-2 md:-mt-12 text-start  w-1/2 ">
                 <ul className='grid grid-cols-1 gap-1 place-content-center text-center'>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
