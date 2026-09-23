@@ -7,7 +7,7 @@ type Props = {
 function StraightLineAndText({title}: Props) {
   return (
     <div className='md:'>
-         <div className="long-line w-full  border bg-black"></div>
+         <div className="long-line w-full  border  border-black/50"></div>
         {title}
         </div>
   )

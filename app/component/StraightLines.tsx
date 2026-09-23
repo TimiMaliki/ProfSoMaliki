@@ -10,7 +10,7 @@ type Props = {
 function StraightLines({header,title}: Props) {
   return (
     <div className='p-3 md:p-10'>
-      <div className="long-line  w-full  border bg-black"></div>
+      <div className="long-line  w-full  border  border-black/50"></div>
       <div className="header mt-2 text-4xl md:text-6xl font-black">
         <Header title={header} />
       </div>
