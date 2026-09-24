@@ -111,7 +111,7 @@ export default function CertificateCarousel() {
     <div className="md:">
         <StraightLines header="Certifications" title=""/>
      </div>
-      <div className="py-2 md:py-4 p-2 md:p-20">
+      <div className="py-2 md:py-12 p-2 md:p-20">
         <TrippleLines />
      </div>
     <section className="py-12 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">

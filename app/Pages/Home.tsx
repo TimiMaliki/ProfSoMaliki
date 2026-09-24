@@ -2,6 +2,7 @@ import StraightLines from "../component/StraightLines";
 import Awards from "./Awards";
 import CertificateCarousel from "./Certifications";
 import GoogleScholar from "./GoogleScholar";
+import SelectedWorks from "./LearnedSociety";
 
 
 
@@ -15,6 +16,7 @@ function Home({ }: Props) {
             <GoogleScholar />
             <Awards/>
             <CertificateCarousel/>
+            <SelectedWorks/>
         </div>
     )
 }
