@@ -1,5 +1,6 @@
 import StraightLines from "../component/StraightLines";
 import Awards from "./Awards";
+import CertificateCarousel from "./Certifications";
 import GoogleScholar from "./GoogleScholar";
 
 
@@ -13,6 +14,7 @@ function Home({ }: Props) {
                 title={"Professor of Applied Mathematics at Michael Okpara Federal University of Agriculture, Umudike (MOUAU), Nigeria."} />
             <GoogleScholar />
             <Awards/>
+            <CertificateCarousel/>
         </div>
     )
 }

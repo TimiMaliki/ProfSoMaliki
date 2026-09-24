@@ -11,7 +11,7 @@ const Awards = (props: Props) => {
      <div className="md:p-10">
         <StraightLines header="Awards" title=""/>
      </div>
-     <div className="py-4 p-20">
+     <div className="py-2 md:py-4 p-2 md:p-20">
         <TrippleLines />
      </div>
      <HonorsAndAwards />
