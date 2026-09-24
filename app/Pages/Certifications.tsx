@@ -11,6 +11,8 @@ import cert4 from "../images/cert4.jpg"
 import cert5 from "../images/cert5.jpg"
 import cert6 from "../images/cert6.jpg"
 import cert7 from "../images/cert7.jpg"
+import TrippleLines from '../component/TrippleLines';
+import StraightLines from '../component/StraightLines';
 
 interface Certificate {
   id: number;
@@ -104,8 +106,16 @@ export default function CertificateCarousel() {
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [nextSlide, prevSlide]);
 
-  return (
+  return ( 
+   <>
+    <div className="md:">
+        <StraightLines header="Certifications" title=""/>
+     </div>
+      <div className="py-2 md:py-4 p-2 md:p-20">
+        <TrippleLines />
+     </div>
     <section className="py-12 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
+       
       {/* Title Header */}
       <div className="mb-8 text-center md:text-left">
         <h2 className="text-3xl sm:text-4xl font-black text-gray-900 tracking-tight">
@@ -256,5 +266,6 @@ export default function CertificateCarousel() {
         )}
       </AnimatePresence>
     </section>
+   </>
   );
 }

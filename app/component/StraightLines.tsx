@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import StraightLineAndText from './StraightLineAndText'
 
+
 type Props = {
   header: string,
   title: string
