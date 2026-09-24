@@ -16,7 +16,7 @@ function GoogleScholar({ }: Props) {
 
             {/* image */}
             <div className="w-full flex items-center justify-center">
-                <div className="imgOne">
+                <div className="imgOne p-5">
                     <Image src={ProfPic} alt="Professor Picture" className="object-cover w-325 rounded box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;" />
                 </div>
             </div>
