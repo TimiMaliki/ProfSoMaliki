@@ -1,8 +1,9 @@
 import StraightLines from "../component/StraightLines";
-import Awards from "./Awards";
-import CertificateCarousel from "./Certifications";
-import GoogleScholar from "./GoogleScholar";
-import SelectedWorks from "./LearnedSociety";
+import Awards from "../HomeSections/Awards";
+import CertificateCarousel from "../HomeSections/Certifications";
+import SpeakingEvents from "../HomeSections/Event";
+import GoogleScholar from "../HomeSections/GoogleScholar";
+import SelectedWorks from "../HomeSections/LearnedSociety";
 
 
 
@@ -17,6 +18,7 @@ function Home({ }: Props) {
             <Awards/>
             <CertificateCarousel/>
             <SelectedWorks/>
+            <SpeakingEvents/>
         </div>
     )
 }
