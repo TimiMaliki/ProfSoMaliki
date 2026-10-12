@@ -701,8 +701,8 @@ export default function AboutPage() {
         className="relative isolate border-b border-slate-100"
       >
         <div className="pointer-events-none absolute inset-0 -z-10 overflow-hidden">
-          <div className="absolute -right-32 -top-40 h-[450px] w-[450px] rounded-full border border-slate-200" />
-          <div className="absolute -right-12 -top-20 h-[300px] w-[300px] rounded-full border border-slate-200" />
+          <div className="absolute -right-32 -top-40 h-112.5 w-112.5 rounded-full border border-slate-200" />
+          <div className="absolute -right-12 -top-20 h-75 w-75 rounded-full border border-slate-200" />
           <div className="absolute right-10 top-20 h-48 w-48 rounded-full bg-blue-50 blur-3xl" />
         </div>
 
@@ -778,9 +778,9 @@ export default function AboutPage() {
           </div>
 
           <div className="relative mx-auto w-full max-w-md">
-            <div className="absolute -right-4 -top-4 h-24 w-24 rounded-tr-[2rem] border-r border-t border-blue-200" />
+            <div className="absolute -right-4 -top-4 h-24 w-24 rounded-tr-4xl border-r border-t border-blue-200" />
 
-            <div className="relative overflow-hidden rounded-[2rem] bg-slate-950 p-8 text-white shadow-2xl shadow-slate-900/10 sm:p-10">
+            <div className="relative overflow-hidden rounded-4xl bg-slate-950 p-8 text-white shadow-2xl shadow-slate-900/10 sm:p-10">
               <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full border border-white/10" />
               <div className="absolute -right-8 -top-8 h-44 w-44 rounded-full border border-white/10" />
 
@@ -792,7 +792,7 @@ export default function AboutPage() {
                   <Sigma size={25} className="text-blue-300" />
                 </div>
 
-                <div className="my-12 flex h-36 w-36 items-center justify-center rounded-full border border-white/15 bg-white/[0.04]">
+                <div className="my-12 flex h-36 w-36 items-center justify-center rounded-full border border-white/15 bg-white/4">
                   <GraduationCap
                     size={72}
                     strokeWidth={1}
@@ -1181,7 +1181,7 @@ export default function AboutPage() {
               return (
                 <article
                   key={item.title}
-                  className="rounded-2xl border border-slate-200 p-6 transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg hover:shadow-slate-900/[0.04]"
+                  className="rounded-2xl border border-slate-200 p-6 transition hover:-translate-y-1 hover:border-blue-200 hover:shadow-lg hover:shadow-slate-900/4"
                 >
                   <Icon
                     size={25}
@@ -1203,7 +1203,7 @@ export default function AboutPage() {
 
       {/* CLOSING */}
       <section className="px-6 pb-20 sm:px-10 sm:pb-24 lg:px-12">
-        <div className="mx-auto max-w-7xl overflow-hidden rounded-[2rem] bg-slate-950 px-7 py-12 text-white sm:px-12 sm:py-16 lg:px-16">
+        <div className="mx-auto max-w-7xl overflow-hidden rounded-4xl bg-slate-950 px-7 py-12 text-white sm:px-12 sm:py-16 lg:px-16">
           <div className="grid items-center gap-10 md:grid-cols-[1fr_auto]">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.22em] text-blue-300">
