@@ -1236,13 +1236,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* FOOTER */}
-      <footer className="border-t border-slate-200 px-6 py-7 sm:px-10 lg:px-12">
-        <div className="mx-auto flex max-w-7xl flex-col gap-3 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between">
-          <p>Professor S. O. Maliki · Academic Profile</p>
-          <p>Research · Scholarship · Mathematical Sciences</p>
-        </div>
-      </footer>
+   
     </main>
   );
 }

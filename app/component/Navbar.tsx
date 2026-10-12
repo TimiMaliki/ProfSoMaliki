@@ -6,9 +6,9 @@ import logo from "../images/dadsLogo.png";
 
 function Navbar() {
   const navLinks = [
-    { name: "Home", href: "#home" },
+    { name: "Home", href: "/" },
     { name: "About", href: "/About" },
-    { name: "Contact", href: "#contact" },
+    { name: "Contact", href: "/Contact" },
   ];
 
   return (
