@@ -11,7 +11,7 @@ function GoogleScholar({ }: Props) {
     return (
         <section className="">
             <div className="w-full overflow-x-hidden">
-                <TwoStraightLines />
+                {/* <TwoStraightLines /> */}
             </div>
 
             {/* image */}

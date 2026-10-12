@@ -1,22 +1,51 @@
-import React from 'react'
-import logo from "../images/dadsLogo.png"
-type Props = {}
 
-function Navbar({ }: Props) {
-    return (
-        <div className='flex  justify-between'>
-            {/* Logo */}
-            <div className="logo -mt-12 md:-mt-24 text-start  w-1/2 p-12"><img src={logo.src} alt="Logo" className="h-16 w-16" /></div>
-            {/* menus */}
-            <div className="menu -mt-2 md:-mt-12 text-start  w-1/2 ">
-                <ul className='grid grid-cols-1 gap-1 place-content-center text-center'>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    )
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import logo from "../images/dadsLogo.png";
+
+function Navbar() {
+  const navLinks = [
+    { name: "Home", href: "#home" },
+    { name: "About", href: "/About" },
+    { name: "Contact", href: "#contact" },
+  ];
+
+  return (
+    <nav className="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/95 backdrop-blur-md">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-12">
+        {/* Logo */}
+        <Link
+          href="#home"
+          aria-label="Go to homepage"
+          className="flex shrink-0 items-center"
+        >
+          <Image
+            src={logo}
+            alt="Logo"
+            width={64}
+            height={64}
+            priority
+            className="h-12 w-12 object-contain"
+          />
+        </Link>
+
+        {/* Navigation Links */}
+        <ul className="flex items-center gap-5 sm:gap-8 md:gap-10">
+          {navLinks.map((link) => (
+            <li key={link.name}>
+              <Link
+                href={link.href}
+                className="relative py-2 text-sm font-medium text-gray-600 transition-colors duration-200 hover:text-black after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-black after:transition-all after:duration-300 hover:after:w-full sm:text-base"
+              >
+                {link.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </nav>
+  );
 }
 
-export default Navbar
+export default Navbar;
