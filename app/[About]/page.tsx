@@ -1,6 +1,8 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import prof from "../images/Prof-Niyi-Maliki-.jpeg"
 import {
   ArrowDownRight,
   ArrowRight,
@@ -780,11 +782,11 @@ export default function AboutPage() {
           <div className="relative mx-auto w-full max-w-md">
             <div className="absolute -right-4 -top-4 h-24 w-24 rounded-tr-4xl border-r border-t border-blue-200" />
 
-            <div className="relative overflow-hidden rounded-4xl bg-slate-950 p-8 text-white shadow-2xl shadow-slate-900/10 sm:p-10">
+            <div className="relative overflow-hidden rounded-4xl  text-white shadow-2xl shadow-slate-900/10 sm:p-10">
               <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full border border-white/10" />
               <div className="absolute -right-8 -top-8 h-44 w-44 rounded-full border border-white/10" />
-
-              <div className="relative">
+           <Image src={prof} alt="Professor S. O. Maliki" />
+              {/* <div className="relative">
                 <div className="flex items-center justify-between">
                   <span className="text-xs uppercase tracking-[0.2em] text-slate-400">
                     Professional Overview
@@ -817,7 +819,7 @@ export default function AboutPage() {
                     Research, Teaching & Scholarship
                   </span>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="absolute -bottom-5 -left-3 hidden rounded-xl border border-slate-100 bg-white px-5 py-4 shadow-xl sm:block md:-left-7">
