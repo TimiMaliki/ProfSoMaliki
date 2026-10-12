@@ -165,7 +165,7 @@ export default function Footer() {
             href="http://profsomaliki.com.ng"
             className="text-[16px] text-white hover:opacity-80 transition-opacity inline-block"
           >
-            Copyright©2023. All Rights Reserved by Profsomaliki.com.ng.
+            Copyright©2026. All Rights Reserved by Profsomaliki.com.ng.
           </Link>
         </div>
       </div>
